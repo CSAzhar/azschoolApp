@@ -23,10 +23,12 @@ public class ClassRoom {
 	private Short totalStudents;
 	@ManyToOne
 	private School school;
-	@OneToMany
+	
+	@OneToMany(mappedBy = "class_room")
 	private List<Student> students;
+	
 	@OneToMany
-	private List<Subjects> subjects;
+	private List<Subject> subjects;
 	
 	
 

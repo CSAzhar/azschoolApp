@@ -2,6 +2,7 @@ package com.azschool.entity;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,9 +20,14 @@ public class School {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String name;
-	private String address;
 	private String principal;
-	@OneToMany
+	private String photoUrl;
+	private String address;
+	private String email;
+	private String password;
+	private Integer isSchoolActive;
+	
+	@OneToMany(mappedBy = "school", cascade = CascadeType.ALL)
 	private List<ClassRoom> classRooms;
 
 }
