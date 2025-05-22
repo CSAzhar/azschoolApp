@@ -22,7 +22,7 @@ public class Subject {
 	private String name;
 	private String details;
 	
-	@ManyToMany(mappedBy = "subject_list")
+	@ManyToMany(mappedBy = "subjectList")
 	private List<Teacher> teacherList;
 	
 	@OneToMany(mappedBy = "subjects")

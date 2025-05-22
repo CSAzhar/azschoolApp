@@ -28,7 +28,7 @@ public class Student {
 	private String role;
 	
 	@ManyToOne
-	@JoinColumn(name = "class_id")
+	@JoinColumn(name = "classRoom_id")
 	private ClassRoom classRoom;
 	
 	@OneToMany(mappedBy = "student", cascade = CascadeType.ALL)

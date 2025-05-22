@@ -2,6 +2,7 @@ package com.azschool.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +16,7 @@ import com.azschool.service.SchoolService;
 
 @RestController
 @RequestMapping("/school")
+@CrossOrigin
 public class SchoolController {
 	
 	@Autowired
@@ -37,5 +39,6 @@ public class SchoolController {
 		Response response = schoolService.getSchoolById(id);
 		return ResponseEntity.status(response.getStatusCode()).body(response);
 	}
-
+	
+	
 }

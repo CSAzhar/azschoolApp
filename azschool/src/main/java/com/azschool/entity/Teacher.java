@@ -41,7 +41,8 @@ public class Teacher {
 			)
 	private List<Subject> subjectList;
 	
-	@OneToMany(mappedBy = "teacher")
+	@OneToMany
+	@JoinColumn(name = "teacher_id")
 	private List<ClassRoom> classRoomList;
 
 
