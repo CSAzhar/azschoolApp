@@ -1,0 +1,223 @@
+2025-05-30T12:16:06.688+05:30  INFO 11260 --- [azschool] [main] com.azschool.AzschoolApplication         : Starting AzschoolApplication using Java 21.0.6 with PID 11260 (C:\Users\azharuddin\git\azschoolApp\azschool\target\classes started by azharuddin in C:\Users\azharuddin\git\azschoolApp\azschool)
+2025-05-30T12:16:06.699+05:30  INFO 11260 --- [azschool] [main] com.azschool.AzschoolApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T12:16:07.909+05:30  INFO 11260 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30T12:16:07.993+05:30  INFO 11260 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2025-05-30T12:16:08.657+05:30  INFO 11260 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-30T12:16:08.674+05:30  INFO 11260 --- [azschool] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T12:16:08.675+05:30  INFO 11260 --- [azschool] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30T12:16:08.754+05:30  INFO 11260 --- [azschool] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T12:16:08.755+05:30  INFO 11260 --- [azschool] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1996 ms
+2025-05-30T12:16:08.975+05:30  INFO 11260 --- [azschool] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30T12:16:09.044+05:30  INFO 11260 --- [azschool] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-30T12:16:09.093+05:30  INFO 11260 --- [azschool] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-30T12:16:09.472+05:30  INFO 11260 --- [azschool] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30T12:16:09.514+05:30  INFO 11260 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30T12:16:09.992+05:30  INFO 11260 --- [azschool] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c678c7b
+2025-05-30T12:16:09.996+05:30  INFO 11260 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30T12:16:10.058+05:30  WARN 11260 --- [azschool] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30T12:16:10.083+05:30  INFO 11260 --- [azschool] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30T12:16:11.444+05:30  INFO 11260 --- [azschool] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30T12:16:11.604+05:30  INFO 11260 --- [azschool] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30T12:16:11.967+05:30  WARN 11260 --- [azschool] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30T12:16:12.424+05:30  INFO 11260 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-05-30T12:16:12.437+05:30  INFO 11260 --- [azschool] [main] com.azschool.AzschoolApplication         : Started AzschoolApplication in 6.39 seconds (process running for 6.834)
+2025-05-30T12:16:53.669+05:30  INFO 8004 --- [azschool] [main] com.azschool.AzschoolApplication         : Starting AzschoolApplication using Java 21.0.6 with PID 8004 (C:\Users\azharuddin\git\azschoolApp\azschool\target\classes started by azharuddin in C:\Users\azharuddin\git\azschoolApp\azschool)
+2025-05-30T12:16:53.676+05:30  INFO 8004 --- [azschool] [main] com.azschool.AzschoolApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T12:16:54.701+05:30  INFO 8004 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30T12:16:54.795+05:30  INFO 8004 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2025-05-30T12:16:55.478+05:30  INFO 8004 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-30T12:16:55.498+05:30  INFO 8004 --- [azschool] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T12:16:55.499+05:30  INFO 8004 --- [azschool] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30T12:16:55.583+05:30  INFO 8004 --- [azschool] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T12:16:55.584+05:30  INFO 8004 --- [azschool] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1854 ms
+2025-05-30T12:16:55.887+05:30  INFO 8004 --- [azschool] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30T12:16:55.952+05:30  INFO 8004 --- [azschool] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-30T12:16:56.001+05:30  INFO 8004 --- [azschool] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-30T12:16:56.369+05:30  INFO 8004 --- [azschool] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30T12:16:56.411+05:30  INFO 8004 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30T12:16:56.868+05:30  INFO 8004 --- [azschool] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a0f87e5
+2025-05-30T12:16:56.872+05:30  INFO 8004 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30T12:16:56.941+05:30  WARN 8004 --- [azschool] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30T12:16:56.966+05:30  INFO 8004 --- [azschool] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30T12:16:58.324+05:30  INFO 8004 --- [azschool] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30T12:16:58.493+05:30  INFO 8004 --- [azschool] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30T12:16:58.971+05:30  WARN 8004 --- [azschool] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30T12:16:59.480+05:30  INFO 8004 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-05-30T12:16:59.496+05:30  INFO 8004 --- [azschool] [main] com.azschool.AzschoolApplication         : Started AzschoolApplication in 6.472 seconds (process running for 6.955)
+2025-05-30T12:40:12.896+05:30  INFO 20684 --- [azschool] [main] com.azschool.AzschoolApplication         : Starting AzschoolApplication using Java 21.0.6 with PID 20684 (C:\Users\azharuddin\git\azschoolApp\azschool\target\classes started by azharuddin in C:\Users\azharuddin\git\azschoolApp\azschool)
+2025-05-30T12:40:12.907+05:30  INFO 20684 --- [azschool] [main] com.azschool.AzschoolApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T12:40:14.011+05:30  INFO 20684 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30T12:40:14.103+05:30  INFO 20684 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2025-05-30T12:40:14.803+05:30  INFO 20684 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-30T12:40:14.820+05:30  INFO 20684 --- [azschool] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T12:40:14.821+05:30  INFO 20684 --- [azschool] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30T12:40:14.895+05:30  INFO 20684 --- [azschool] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T12:40:14.896+05:30  INFO 20684 --- [azschool] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1928 ms
+2025-05-30T12:40:15.143+05:30  INFO 20684 --- [azschool] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30T12:40:15.246+05:30  INFO 20684 --- [azschool] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-30T12:40:15.295+05:30  INFO 20684 --- [azschool] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-30T12:40:15.658+05:30  INFO 20684 --- [azschool] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30T12:40:15.703+05:30  INFO 20684 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30T12:40:16.202+05:30  INFO 20684 --- [azschool] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30c7be6f
+2025-05-30T12:40:16.206+05:30  INFO 20684 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30T12:40:16.278+05:30  WARN 20684 --- [azschool] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30T12:40:16.303+05:30  INFO 20684 --- [azschool] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30T12:40:17.763+05:30  INFO 20684 --- [azschool] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30T12:40:18.329+05:30  INFO 20684 --- [azschool] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30T12:40:18.701+05:30  WARN 20684 --- [azschool] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30T12:40:19.220+05:30  INFO 20684 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-05-30T12:40:19.230+05:30  INFO 20684 --- [azschool] [main] com.azschool.AzschoolApplication         : Started AzschoolApplication in 6.984 seconds (process running for 7.437)
+ok
+
+ok2025-05-30T12:41:13.645+05:30  INFO 17828 --- [azschool] [main] com.azschool.AzschoolApplication         : Starting AzschoolApplication using Java 21.0.6 with PID 17828 (C:\Users\azharuddin\git\azschoolApp\azschool\target\classes started by azharuddin in C:\Users\azharuddin\git\azschoolApp\azschool)
+2025-05-30T12:41:13.654+05:30  INFO 17828 --- [azschool] [main] com.azschool.AzschoolApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T12:41:14.725+05:30  INFO 17828 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30T12:41:14.817+05:30  INFO 17828 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2025-05-30T12:41:15.488+05:30  INFO 17828 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-30T12:41:15.505+05:30  INFO 17828 --- [azschool] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T12:41:15.505+05:30  INFO 17828 --- [azschool] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30T12:41:15.585+05:30  INFO 17828 --- [azschool] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T12:41:15.586+05:30  INFO 17828 --- [azschool] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1870 ms
+2025-05-30T12:41:15.803+05:30  INFO 17828 --- [azschool] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30T12:41:15.887+05:30  INFO 17828 --- [azschool] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-30T12:41:15.943+05:30  INFO 17828 --- [azschool] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-30T12:41:16.357+05:30  INFO 17828 --- [azschool] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30T12:41:16.402+05:30  INFO 17828 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30T12:41:16.873+05:30  INFO 17828 --- [azschool] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30c7be6f
+2025-05-30T12:41:16.876+05:30  INFO 17828 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30T12:41:16.962+05:30  WARN 17828 --- [azschool] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30T12:41:17.010+05:30  INFO 17828 --- [azschool] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30T12:41:18.375+05:30  INFO 17828 --- [azschool] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30T12:41:18.497+05:30  INFO 17828 --- [azschool] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30T12:41:18.871+05:30  WARN 17828 --- [azschool] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30T12:41:19.327+05:30  INFO 17828 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-05-30T12:41:19.338+05:30  INFO 17828 --- [azschool] [main] com.azschool.AzschoolApplication         : Started AzschoolApplication in 6.325 seconds (process running for 6.773)
+2025-05-30T12:41:39.971+05:30  INFO 2824 --- [azschool] [main] com.azschool.AzschoolApplication         : Starting AzschoolApplication using Java 21.0.6 with PID 2824 (C:\Users\azharuddin\git\azschoolApp\azschool\target\classes started by azharuddin in C:\Users\azharuddin\git\azschoolApp\azschool)
+2025-05-30T12:41:39.981+05:30  INFO 2824 --- [azschool] [main] com.azschool.AzschoolApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T12:41:41.191+05:30  INFO 2824 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30T12:41:41.303+05:30  INFO 2824 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2025-05-30T12:41:41.971+05:30  INFO 2824 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-30T12:41:41.988+05:30  INFO 2824 --- [azschool] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T12:41:41.988+05:30  INFO 2824 --- [azschool] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30T12:41:42.062+05:30  INFO 2824 --- [azschool] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T12:41:42.063+05:30  INFO 2824 --- [azschool] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2017 ms
+2025-05-30T12:41:42.385+05:30  INFO 2824 --- [azschool] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30T12:41:42.453+05:30  INFO 2824 --- [azschool] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-30T12:41:42.507+05:30  INFO 2824 --- [azschool] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-30T12:41:42.896+05:30  INFO 2824 --- [azschool] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30T12:41:42.938+05:30  INFO 2824 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30T12:41:43.422+05:30  INFO 2824 --- [azschool] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dfe59d7
+2025-05-30T12:41:43.425+05:30  INFO 2824 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30T12:41:43.489+05:30  WARN 2824 --- [azschool] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30T12:41:43.516+05:30  INFO 2824 --- [azschool] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30T12:41:44.986+05:30  INFO 2824 --- [azschool] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30T12:41:45.112+05:30  INFO 2824 --- [azschool] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30T12:41:45.490+05:30  WARN 2824 --- [azschool] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30T12:41:45.935+05:30  INFO 2824 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-05-30T12:41:45.948+05:30  INFO 2824 --- [azschool] [main] com.azschool.AzschoolApplication         : Started AzschoolApplication in 6.607 seconds (process running for 7.054)
+2025-05-30T12:43:46.737+05:30  INFO 2824 --- [azschool] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T12:43:46.738+05:30  INFO 2824 --- [azschool] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T12:43:46.741+05:30  INFO 2824 --- [azschool] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-05-30T12:53:13.847+05:30  INFO 2032 --- [azschool] [main] com.azschool.AzschoolApplication         : Starting AzschoolApplication using Java 21.0.6 with PID 2032 (C:\Users\azharuddin\git\azschoolApp\azschool\target\classes started by azharuddin in C:\Users\azharuddin\git\azschoolApp\azschool)
+2025-05-30T12:53:13.858+05:30  INFO 2032 --- [azschool] [main] com.azschool.AzschoolApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T12:53:15.214+05:30  INFO 2032 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30T12:53:15.328+05:30  INFO 2032 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+2025-05-30T12:53:16.090+05:30  INFO 2032 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-30T12:53:16.113+05:30  INFO 2032 --- [azschool] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T12:53:16.113+05:30  INFO 2032 --- [azschool] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30T12:53:16.208+05:30  INFO 2032 --- [azschool] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T12:53:16.209+05:30  INFO 2032 --- [azschool] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2282 ms
+2025-05-30T12:53:16.443+05:30  INFO 2032 --- [azschool] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30T12:53:16.536+05:30  INFO 2032 --- [azschool] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-30T12:53:16.595+05:30  INFO 2032 --- [azschool] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-30T12:53:17.071+05:30  INFO 2032 --- [azschool] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30T12:53:17.125+05:30  INFO 2032 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30T12:53:17.752+05:30  INFO 2032 --- [azschool] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25cde5bb
+2025-05-30T12:53:17.756+05:30  INFO 2032 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30T12:53:17.847+05:30  WARN 2032 --- [azschool] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30T12:53:18.034+05:30  INFO 2032 --- [azschool] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30T12:53:19.696+05:30  INFO 2032 --- [azschool] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30T12:53:19.932+05:30  INFO 2032 --- [azschool] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30T12:53:20.601+05:30  WARN 2032 --- [azschool] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30T12:53:21.266+05:30  INFO 2032 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-05-30T12:53:21.280+05:30  INFO 2032 --- [azschool] [main] com.azschool.AzschoolApplication         : Started AzschoolApplication in 8.06 seconds (process running for 8.513)
+2025-05-30T12:53:34.966+05:30  INFO 2032 --- [azschool] [http-nio-9001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T12:53:34.968+05:30  INFO 2032 --- [azschool] [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T12:53:34.970+05:30  INFO 2032 --- [azschool] [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-30T12:53:35.088+05:30  INFO 2032 --- [azschool] [http-nio-9001-exec-2] c.azschool.controller.SchoolController   : inside getting school controller and getting all schools
+2025-05-30T12:53:35.472+05:30  INFO 2032 --- [azschool] [http-nio-9001-exec-3] c.azschool.controller.SchoolController   : inside getting school controller and getting all schools
+2025-05-30T12:54:13.102+05:30  INFO 2032 --- [azschool] [http-nio-9001-exec-1] c.azschool.controller.SchoolController   : inside getting school controller and getting all schools
+2025-05-30T12:54:13.175+05:30  INFO 2032 --- [azschool] [http-nio-9001-exec-4] c.azschool.controller.SchoolController   : inside getting school controller and getting all schools
+2025-05-30T14:04:12.770+05:30  WARN 2032 --- [azschool] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m53s981ms960µs400ns).
+2025-05-30T14:09:59.299+05:30  INFO 17716 --- [azschool] [main] com.azschool.AzschoolApplication         : Starting AzschoolApplication using Java 21.0.6 with PID 17716 (C:\Users\azharuddin\git\azschoolApp\azschool\target\classes started by azharuddin in C:\Users\azharuddin\git\azschoolApp\azschool)
+2025-05-30T14:09:59.310+05:30  INFO 17716 --- [azschool] [main] com.azschool.AzschoolApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T14:10:00.459+05:30  INFO 17716 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30T14:10:00.600+05:30  INFO 17716 --- [azschool] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 2 JPA repository interfaces.
+2025-05-30T14:10:01.483+05:30  INFO 17716 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-05-30T14:10:01.508+05:30  INFO 17716 --- [azschool] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T14:10:01.509+05:30  INFO 17716 --- [azschool] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-30T14:10:01.612+05:30  INFO 17716 --- [azschool] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T14:10:01.612+05:30  INFO 17716 --- [azschool] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2232 ms
+2025-05-30T14:10:01.858+05:30  INFO 17716 --- [azschool] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30T14:10:01.980+05:30  INFO 17716 --- [azschool] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-30T14:10:02.045+05:30  INFO 17716 --- [azschool] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-30T14:10:02.594+05:30  INFO 17716 --- [azschool] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-30T14:10:02.643+05:30  INFO 17716 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30T14:10:03.266+05:30  INFO 17716 --- [azschool] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2905b568
+2025-05-30T14:10:03.279+05:30  INFO 17716 --- [azschool] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30T14:10:03.369+05:30  WARN 17716 --- [azschool] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-30T14:10:03.406+05:30  INFO 17716 --- [azschool] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-30T14:10:04.814+05:30  INFO 17716 --- [azschool] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-30T14:10:04.953+05:30  INFO 17716 --- [azschool] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30T14:10:05.389+05:30  WARN 17716 --- [azschool] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30T14:10:05.911+05:30  INFO 17716 --- [azschool] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2025-05-30T14:10:05.923+05:30  INFO 17716 --- [azschool] [main] com.azschool.AzschoolApplication         : Started AzschoolApplication in 7.299 seconds (process running for 7.721)
