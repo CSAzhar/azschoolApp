@@ -12,5 +12,5 @@
 Application: ${application.title} by ${application.author}
 Version: ${application.version}
 
-Starting application...
+Starting application....
 Logging to: ${logging.file.name}
